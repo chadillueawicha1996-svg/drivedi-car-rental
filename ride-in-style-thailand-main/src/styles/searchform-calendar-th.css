@@ -1,0 +1,25 @@
+
+.rdrWeekDay:first-child,
+.rdrWeekDay:last-child {
+  color: #e53e3e !important;
+}
+
+.rdrMonthName {
+  font-size: 1.15rem !important;
+  font-weight: 500 !important;
+  letter-spacing: 0 !important;
+  min-width: 120px !important;
+  text-align: center !important;
+  
+}
+.rdrDayPassive {
+  visibility: hidden !important;
+  pointer-events: none !important;
+}
+.rdrDay:not(.rdrDayDisabled):nth-child(7n+1) .rdrDayNumber span, /* อาทิตย์ */
+.rdrDay:not(.rdrDayDisabled):nth-child(7n) .rdrDayNumber span { /* เสาร์ */
+  color: #e53e3e !important;
+}
+.rdrDayDisabled .rdrDayNumber span {
+  color: #d1d5db !important;
+} 

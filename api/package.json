@@ -1,0 +1,25 @@
+{
+  "name": "drivedi-shared-api",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Shared API server for DriveDi web and mobile apps",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "mysql2": "^3.14.3",
+    "multer": "^2.0.2",
+    "nodemailer": "^7.0.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "keywords": ["api", "car-rental", "express", "mysql"],
+  "author": "DriveDi Team",
+  "license": "MIT"
+}
