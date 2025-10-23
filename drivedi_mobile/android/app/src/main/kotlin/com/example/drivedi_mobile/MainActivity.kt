@@ -1,5 +1,0 @@
-package com.example.drivedi_mobile
-
-import io.flutter.embedding.android.FlutterActivity
-
-class MainActivity : FlutterActivity()
